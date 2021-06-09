@@ -1,0 +1,29 @@
+---
+
+  - name: Create a new database
+    mysql_db:
+      name: laraveldb
+      state: present
+
+  - name: Create database user with all database privileges
+    mysql_user:
+      name: laravel
+      password: laravel
+      priv: '*.*:ALL'
+      state: present
+
+  - name: Create laravel project
+    shell:
+      cmd: composer create-project laravel/laravel lara
+      chdir: /var/www/html/
+  
+  - name: Copy migration script from the remote machine to box
+    copy:
+      src: /vagrant/ansible_vagrant/config/migration.sh
+      dest: /var/www/html/lara/
+      remote_src: yes
+
+  - name: Run database migration script
+    shell:
+      cmd: chmod +x ./migration.sh && ./migration.sh
+      chdir: /var/www/html/lara
