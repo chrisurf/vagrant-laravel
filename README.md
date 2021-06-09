@@ -14,7 +14,7 @@
 Chris Oguntolu <c.oguntolu (at) gmail (dot) com>
 
 ## Content
-A Vagrant VM with a Laravel sandbox fulled by Ansible. 
+A Vagrant VM with a Laravel sandbox fulled by Ansible.
 
 For reference of the Laravel framework visit [laravel.com](https://laravel.com/)
 
@@ -30,6 +30,6 @@ vagrant up
 ```
 
 ### Test
-* Open [laravel.box](http://laravel.box)
-* Open [phpmyadmin](http://laravel.box/phpmyadmin) user/password: laravel
-* Edit the .env file accordingly
+* Open [laravel.box](http://laravel.box).
+* Open [phpmyadmin](http://laravel.box/phpmyadmin) user/password: laravel.
+* Edit the .env file accordingly.
