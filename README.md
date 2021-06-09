@@ -4,7 +4,7 @@
       ///                                                               ///     
       ///      ///////////  /////// /////////// ///     /// //////////  ///     
       ///     ///      ///  ///    ///      ///  ///   /// ///////////  ///     
-      ///     ////     ///  ///    ///     ////   /// ///  ///          ///     
+      ///     ///      ///  ///    ///     ////   /// ///  ///          ///     
       ////////  //////////  ///      //////////    /////     ////////   ///     
 
 # vagrant-laravel-ansible
@@ -32,3 +32,4 @@ vagrant up
 ### Test
 * Open [laravel.box](http://laravel.box)
 * Open [phpmyadmin](http://laravel.box/phpmyadmin) user/password: laravel
+* Edit the .env file accordingly
