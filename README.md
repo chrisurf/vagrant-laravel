@@ -30,6 +30,6 @@ vagrant up
 ```
 
 ### Test
-* Open [laravel.box](http://laravel.box).
+* Open [laravel.box](http://laravel.box) in your favourite browser.
 * Open [phpmyadmin](http://laravel.box/phpmyadmin) user/password: laravel.
 * Edit the .env file accordingly.
