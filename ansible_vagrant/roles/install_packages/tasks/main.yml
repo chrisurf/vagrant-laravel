@@ -1,5 +1,4 @@
 ---
-
 - name: debconf for phpmyadmin
   debconf:
     name: phpmyadmin
@@ -51,7 +50,6 @@
     groups: vagrant
     append: yes
 
-# set up apache server for laravel web directoy
 - name: Copy site config from the remote machine to box
   copy:
     src: /vagrant/ansible_vagrant/config/laravel-site.conf
@@ -70,5 +68,4 @@
   systemd:
     name: apache2
     state: reloaded
-
 ...

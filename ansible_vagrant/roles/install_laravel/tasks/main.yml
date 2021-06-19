@@ -1,5 +1,4 @@
 ---
-
   - name: Create a new database
     mysql_db:
       name: laraveldb
@@ -27,3 +26,4 @@
     shell:
       cmd: chmod +x ./migration.sh && ./migration.sh
       chdir: /var/www/html/lara
+...
