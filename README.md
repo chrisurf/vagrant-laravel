@@ -18,6 +18,13 @@ A Vagrant VM with a Laravel sandbox fulled by Ansible.
 
 For reference of the Laravel framework visit [laravel.com](https://laravel.com/)
 
+### VM Enviroment
+* ubuntu 20.04
+* apache 2.4.41
+* php 7.4.22
+* mysql 8.0.25-15
+* nodejs 12.22.4
+
 ## Usage
 
 ### Configuration
