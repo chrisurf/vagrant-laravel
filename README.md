@@ -36,9 +36,12 @@ For reference of the Laravel framework visit [laravel.com](https://laravel.com/)
 vagrant up
 ```
 
+### Defaults
+* Default server ip: 192.168.12.34 domain: laravel.box
+* Default mysql db: laravel, user: laravel, password: laravel.
+* Default phpmyadmin user: laravel, password: laravel.
+
 ### Test
-* Server: ip: 192.168.12.34 domain: laravel.box
-* MySQL db: laravel, user: laravel, password: laravel.
 * Open [laravel.box](http://laravel.box) in your favourite browser.
-* Open [phpmyadmin](http://laravel.box/phpmyadmin) user: laravel, password: laravel.
+* Open [phpmyadmin](http://laravel.box/phpmyadmin).
 * Edit the .env file according to your requirements.
