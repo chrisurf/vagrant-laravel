@@ -24,6 +24,7 @@ For reference of the Laravel framework visit [laravel.com](https://laravel.com/)
 * php 7.4.22
 * mysql 8.0.25-15
 * nodejs 12.22.4
+* npm 6.14.14
 
 ### Defaults
 * Default server ip: 192.168.12.34 domain: laravel.box
