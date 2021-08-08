@@ -44,5 +44,5 @@ vagrant up
 
 ### Test
 * Open [laravel.box](http://laravel.box) in your favourite browser.
-* Open [phpmyadmin](http://laravel.box/phpmyadmin).
+* Open [phpmyadmin](http://laravel.box/phpmyadmin) in your favourite browser.
 
