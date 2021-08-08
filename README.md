@@ -29,7 +29,7 @@ For reference of the Laravel framework visit [laravel.com](https://laravel.com/)
 
 ### Configuration
 * Rename the config.yml.example file into config.yml.
-* Edit the config file acording to your requirements.
+* Edit the config file according to your requirements.
 
 ### Run
 ```
@@ -41,4 +41,4 @@ vagrant up
 * MySQL db: laravel, user: laravel, password: laravel.
 * Open [laravel.box](http://laravel.box) in your favourite browser.
 * Open [phpmyadmin](http://laravel.box/phpmyadmin) user: laravel, password: laravel.
-* Edit the .env file accordingly.
+* Edit the .env file according to your requirements.
